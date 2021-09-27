@@ -1,0 +1,221 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Course Matching Tool",
+    "line": 2,
+    "id": "course-matching-tool",
+    "tags": [],
+    "uri": "CMT.feature",
+    "elements": [
+      {
+        "id": "course-matching-tool;not-registered-user-cmt-process",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Not Registered user CMT process",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User launch Course Matching website and landed on CMT Webpage",
+            "result": {
+              "status": "passed",
+              "duration": 13254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks on course matching tool",
+            "result": {
+              "status": "passed",
+              "duration": 10951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User is Navigated to Search Page",
+            "result": {
+              "status": "passed",
+              "duration": 12036000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User selects Study Level",
+            "result": {
+              "status": "passed",
+              "duration": 5416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User selects Learning Type",
+            "result": {
+              "status": "passed",
+              "duration": 2357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User selects Nationality, Destination and Subjects and Click on \"Submit\"",
+            "result": {
+              "status": "passed",
+              "duration": 21019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User is landed on Match Page and Entered Details",
+            "result": {
+              "status": "failed",
+              "duration": 20568000000,
+              "error_message": "AssertionError: Timed out retrying after 15000ms: Expected to find element: `//div[@class=\"menu transition visible\"]//div[@class=\"item\"]`, but never found it.\n    at MatchPage.getAllPreviousStudyLevelOptions (https://d8-test.topuniversities.com/__cypress/tests?p=cypress\\integration\\BDD\\CMT.feature:283:17)\n    at Context.eval (https://d8-test.topuniversities.com/__cypress/tests?p=cypress\\integration\\BDD\\CMT.feature:126:6)\n    at Context.resolveAndRunStepDefinition (https://d8-test.topuniversities.com/__cypress/tests?p=cypress\\integration\\BDD\\CMT.feature:21310:29)\n    at Context.eval (https://d8-test.topuniversities.com/__cypress/tests?p=cypress\\integration\\BDD\\CMT.feature:20631:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User is landed on Preference Page and Entered Details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Check login page is displayed and clear session cookies",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "course-matching-tool;logged-in-user-search-operation",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Logged in user search Operation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "User launch Course Matching website and landed on CMT Webpage",
+            "result": {
+              "status": "passed",
+              "duration": 17563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User logins in and landed on Homepage",
+            "result": {
+              "status": "passed",
+              "duration": 17520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User clicks on course matching tool",
+            "result": {
+              "status": "passed",
+              "duration": 17782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User is Navigated to Search Page",
+            "result": {
+              "status": "passed",
+              "duration": 5317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User selects Study Level",
+            "result": {
+              "status": "passed",
+              "duration": 5471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User selects Learning Type",
+            "result": {
+              "status": "passed",
+              "duration": 2489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User selects Nationality, Destination and Subjects and Click on \"Submit\"",
+            "result": {
+              "status": "passed",
+              "duration": 31740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User is landed on Match Page and Entered Details",
+            "result": {
+              "status": "passed",
+              "duration": 33607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User is landed on Preference Page and Entered Details",
+            "result": {
+              "status": "passed",
+              "duration": 13672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Results are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 3722000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

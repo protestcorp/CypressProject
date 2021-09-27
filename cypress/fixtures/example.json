@@ -1,0 +1,24 @@
+{
+  "pageTitle": "World University Rankings",
+  "subjectRankingsPageTitle": "Arts and Humanities",
+  "CMTPageTitle": "QS Matching Tool",
+  "CMTSearchTab": "Mobile Programs",
+  "CMTResultsPage": "Search Result",
+  "NationalitySearch" : "IN",
+  "Nationality" : "India",
+  "Subject": "Phy",
+  "Score":{
+  "Option2Data" : "9"
+  },
+  "PSL" : "Bachelors",
+  "Year": "2022",
+  "rankingsTableCol":{
+    "Col1":"Rank",
+    "Col2":"University",
+    "Col3":"Overall Score"
+  },
+  "ResultsperPage":"10",
+  "email": "protestcorp@gmail.com",
+  "password": "Admin123$"
+
+}

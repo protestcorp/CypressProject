@@ -1,0 +1,272 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "World University Rankings",
+    "line": 1,
+    "id": "world-university-rankings",
+    "tags": [],
+    "uri": "Scenario1.feature",
+    "elements": [
+      {
+        "id": "world-university-rankings;verify-university-names,-logos,-ranks,-ranking-score-and-sorting-of-overall-score-in-ranking-tab",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify University names, logos, ranks, ranking score and sorting of overall score in ranking tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "On launching url, user is landing on \"World University Rankings\" page",
+            "result": {
+              "status": "passed",
+              "duration": 21363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Check by default \"University Rankings\" tab is selected and is highlighted",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Check latest year is selected in \"Year\" dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Check if Rankings table is present",
+            "result": {
+              "status": "passed",
+              "duration": 158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Rankings table header consists of 3 columns",
+            "result": {
+              "status": "passed",
+              "duration": 437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Check Results per Page",
+            "result": {
+              "status": "passed",
+              "duration": 2138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "validate University with Rank 1 has the Highest OverallScore and Lowest OverallScore",
+            "result": {
+              "status": "passed",
+              "duration": 655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Check if scores are equal, rank is appended with equal sign and to check next rank",
+            "result": {
+              "status": "passed",
+              "duration": 1084000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Check UniversityNames, Universitylocation, rank column, score column has values",
+            "result": {
+              "status": "passed",
+              "duration": 877000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Check UniversityLogos has images",
+            "result": {
+              "status": "passed",
+              "duration": 373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Check the score sorting",
+            "result": {
+              "status": "passed",
+              "duration": 2497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Check \"KnowMore\", \"Compare\" and \"shortlist\" icons are available",
+            "result": {
+              "status": "passed",
+              "duration": 1366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Check DFPs in page",
+            "result": {
+              "status": "passed",
+              "duration": 3313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Check DFPs 1 at the top and 2 inside table",
+            "result": {
+              "status": "passed",
+              "duration": 1030000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "validate the year",
+            "result": {
+              "status": "passed",
+              "duration": 27413000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Check pagination",
+            "result": {
+              "status": "passed",
+              "duration": 2566000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "world-university-rankings;ranking-indicators-tab",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Ranking Indicators Tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "Click on Ranking Indicators Tab",
+            "result": {
+              "status": "passed",
+              "duration": 5684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "Check \"Rankings Indicators\" table is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Check latest year is selected in \"Year\" dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Check UniversityNames, Universitylocation, rank column, score, ranking indicators column has values",
+            "result": {
+              "status": "passed",
+              "duration": 4116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "Check Indicator Sorting",
+            "result": {
+              "status": "passed",
+              "duration": 3079000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "world-university-rankings;subject-rankings-page",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Subject Rankings Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "Launch Subject Rankings URL and user is navigated to Subject Rankings Page",
+            "result": {
+              "status": "passed",
+              "duration": 16156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "Check DFPs in page",
+            "result": {
+              "status": "passed",
+              "duration": 3317000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
